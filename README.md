@@ -46,17 +46,6 @@ bash ~ $ whoami
 | **[Balcão de Ofertas API](https://github.com/gustavograciano/ProjetoBalcaoOfertasAPI)** | .NET 7 · EF Core 7 · SQL Server | Balcão de ofertas com validação de saldo em carteira |
 | **[Cadastro Associados](https://github.com/gustavograciano/Cadastro-Associados-API)** | .NET 7 · EF Core · Swagger | Mesmo domínio explorado em 3 stacks diferentes (API · WinForms · VB.NET legacy) |
 
-## Onde atuo hoje
-
-Trabalho em um sistema **multi-tenant de compliance regulatório** (.NET 8 + React + TypeScript + React Native), com foco em:
-
-- Isolamento tenant em defesa de camadas (middleware + query filters + validação de controller)
-- Auditoria **hash-chain** (blockchain-like) para integridade de eventos sensíveis
-- RBAC granular (Administrador global · Gestor · SESMT · CIPA · Usuário)
-- Conformidade LGPD (exportação Art. 18, anonimização, consentimento)
-- Deploy HML em Azure App Service + Static Web Apps
-- Cobertura de testes extensa (1000+ testes xUnit + Moq + EF InMemory)
-
 ## GitHub Stats
 
 ![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=gustavograciano&show_icons=true&theme=default&hide_border=true&count_private=true)

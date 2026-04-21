@@ -38,19 +38,61 @@ bash ~ $ whoami
 
 ## Projetos em destaque
 
+### Full-stack
+
 | Repositório | Stack | O que é |
 |---|---|---|
-| **[ImovelStand](https://github.com/gustavograciano/ImovelStand)** | .NET 9 · React 18 · SQL Server · Docker · JWT | Full-stack de gestão de vendas de apartamentos — API + SPA + containers |
-| **[API (Clean Architecture)](https://github.com/gustavograciano/API)** | .NET 6 · Clean Arch · JWT · AutoMapper · FluentValidation | API de usuários/empresas em 4 camadas (Presentation/Application/Domain/Infra) |
-| **[Painel-PGR](https://github.com/gustavograciano/Painel-PGR)** | React 19 · Vite 7 · React Router 7 · jsPDF | Painel para Programa de Gerenciamento de Riscos |
-| **[Balcão de Ofertas API](https://github.com/gustavograciano/ProjetoBalcaoOfertasAPI)** | .NET 7 · EF Core 7 · SQL Server | Balcão de ofertas com validação de saldo em carteira |
-| **[Cadastro Associados](https://github.com/gustavograciano/Cadastro-Associados-API)** | .NET 7 · EF Core · Swagger | Mesmo domínio explorado em 3 stacks diferentes (API · WinForms · VB.NET legacy) |
+| **[GestaoFinanceira](https://github.com/gustavograciano/GestaoFinanceira)** | .NET 8 · Clean Arch · PostgreSQL · Hangfire · Serilog · BCrypt | Sistema de gestão financeira + RH com **security hardening** (CSP, HSTS, rate limiting, AntiForgery global) e 3 jobs agendados (status, alertas, recorrências) |
+| **[ImovelStand](https://github.com/gustavograciano/ImovelStand)** | .NET 9 · React 18 · SQL Server · Docker · JWT | Gestão de vendas em stand imobiliário — API + SPA + containers |
+| **[atendimento-api](https://github.com/gustavograciano/atendimento-api)** + **[atendimento-frontend](https://github.com/gustavograciano/atendimento-frontend)** | .NET 6 + React 18 · EF Core · axios | Par back+front para triagem/atendimento ambulatorial |
+
+### APIs puras
+
+| Repositório | Stack | O que é |
+|---|---|---|
+| **[API — Clean Architecture](https://github.com/gustavograciano/API)** | .NET 6 · JWT · AutoMapper · FluentValidation | API de usuários/empresas em **4 camadas** (Presentation/Application/Domain/Infra) |
+| **[Balcão de Ofertas](https://github.com/gustavograciano/ProjetoBalcaoOfertasAPI)** | .NET 7 · EF Core 7 · SQL Server | Ofertas com **validação de saldo** em carteira do usuário |
+| **[Cadastro Associados](https://github.com/gustavograciano/Cadastro-Associados-API)** | .NET 7 · EF Core · Swagger | Mesmo domínio em **3 stacks distintas**: API · WinForms · VB.NET legacy |
+
+### Frontend
+
+| Repositório | Stack | O que é |
+|---|---|---|
+| **[Painel-PGR](https://github.com/gustavograciano/Painel-PGR)** | React 19 · Vite 7 · React Router 7 · jsPDF | SPA para Programa de Gerenciamento de Riscos com geração de PDFs |
+
+### Automação & Utilitários
+
+| Repositório | Stack | Propósito |
+|---|---|---|
+| **[carga-dados-saipos](https://github.com/gustavograciano/carga-dados-saipos)** | .NET 6 · CsvHelper · MailKit | ETL que baixa relatórios SAIPOS via IMAP, divide por CNPJ e carrega em API |
+| **[separador-csv](https://github.com/gustavograciano/separador-csv)** | .NET 6 · CsvHelper | Normaliza delimitador e divide CSVs/XMLs grandes |
+| **[mongo-class-generator](https://github.com/gustavograciano/mongo-class-generator)** | .NET 6 · MongoDB.Driver | CLI que gera classes C# a partir de coleções MongoDB |
+| **[divisor-csv](https://github.com/gustavograciano/divisor-csv)** | .NET FW 4.7.2 · WinForms | Desktop utility para dividir CSV/XML grandes |
+
+### Estudos & Legacy
+
+- **[teste-cadastro-associados-mvc](https://github.com/gustavograciano/teste-cadastro-associados-mvc)** — ASP.NET Core MVC com relação N:N in-memory
+- **[CadastroAssociadoWebForms](https://github.com/gustavograciano/CadastroAssociadoWebForms)** — app desktop WinForms (.NET 6)
+- **[Projeto-Cadastro-Associado-VB.NET](https://github.com/gustavograciano/Projeto-Cadastro-Associado-VB.NET)** — console VB.NET com EF6 (.NET Framework 4.7.2)
 
 ## GitHub Stats
 
-![Gustavo's GitHub stats](https://github-readme-stats.vercel.app/api?username=gustavograciano&show_icons=true&theme=default&hide_border=true&count_private=true)
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=gustavograciano&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=gustavograciano&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+</p>
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=gustavograciano&layout=compact&theme=default&hide_border=true)
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gustavograciano&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&exclude_repo=teste-projeto-loja-frontend" alt="Top languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=gustavograciano&theme=tokyo-night&hide_border=true&area=true" alt="Activity graph" />
+</p>
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=gustavograciano&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" alt="GitHub trophies" />
+</p>
 
 ## Contato
 

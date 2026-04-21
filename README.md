@@ -54,12 +54,6 @@ bash ~ $ whoami
 | **[Balcão de Ofertas](https://github.com/gustavograciano/ProjetoBalcaoOfertasAPI)** | .NET 7 · EF Core 7 · SQL Server | Ofertas com **validação de saldo** em carteira do usuário |
 | **[Cadastro Associados](https://github.com/gustavograciano/Cadastro-Associados-API)** | .NET 7 · EF Core · Swagger | Mesmo domínio em **3 stacks distintas**: API · WinForms · VB.NET legacy |
 
-### Frontend
-
-| Repositório | Stack | O que é |
-|---|---|---|
-| **[Painel-PGR](https://github.com/gustavograciano/Painel-PGR)** | React 19 · Vite 7 · React Router 7 · jsPDF | SPA para Programa de Gerenciamento de Riscos com geração de PDFs |
-
 ### Automação & Utilitários
 
 | Repositório | Stack | Propósito |
